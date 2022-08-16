@@ -1,0 +1,21 @@
+body {
+    background: whitesmoke;
+    font-family: vazir;
+    text-align: right;
+}
+
+:focus{outline: none;}
+
+@font-face {
+    src: url("../fonts/Vazir-FD-WOL.ttf");
+    font-family: Vazir;
+}
+form{direction: rtl;}
+
+.btnLogin,.btnregister{display: block;
+    width: 180px;
+    margin: 5px auto 21px;
+}
+
+
+a{text-decoration: none;}
